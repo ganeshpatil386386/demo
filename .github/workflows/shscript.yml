@@ -12,5 +12,5 @@ jobs:
 
         - name: Execute script
           run: |
-            chmod +x /ganesh.sh
+            chmod +x ganesh.sh
             ./ganesh.sh
