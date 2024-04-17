@@ -1,4 +1,4 @@
-name: My App
+name: App
 on: push 
 jobs: 
   first_job:
