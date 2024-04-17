@@ -1,0 +1,14 @@
+name: My App
+on: push 
+jobs: 
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Welcome Message
+         run: echo "Hello world"
+
+       - name: Read file
+         run: cat readme.md
+     
+    
+  
