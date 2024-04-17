@@ -8,7 +8,7 @@ jobs:
          run: echo "Hello world"
 
        - name: Read file
-         run: cat readme.md
+         run: cat README.md
      
     
   
