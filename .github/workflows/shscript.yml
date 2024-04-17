@@ -1,0 +1,16 @@
+name: Script
+
+on: push 
+
+jobs:
+    first: 
+        runs-on: ubuntu-latest
+        steps:
+
+        - name: file 
+          uses: actions/version@4
+
+        - name: Execute script
+          run: |
+            chmod +x /ganesh.sh
+            ./ganesh.sh
